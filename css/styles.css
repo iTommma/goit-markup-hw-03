@@ -58,8 +58,6 @@ body {
   font-size: 26px;
   line-height: 1.2;
   font-weight: var(--font-weight-700);
-
-
 }
 
 .logo:hover,
@@ -91,8 +89,6 @@ footer .logo:focus {
   letter-spacing: 0.02em;
   line-height: 1.14;
   font-weight: var(--font-weight-500);
-
-  
 }
 
 .nav-link:hover,
@@ -100,7 +96,6 @@ footer .logo:focus {
 .current {
   color: var(--accent-color);
 }
-
 
 /* header contacts */
 .heder-contact {
@@ -126,7 +121,7 @@ footer {
   line-height: 1.71;
 }
 
-.footer-contact{
+.footer-contact {
   color: rgba(255, 255, 255, 0.6);
   background-color: #2f303a;
 }
@@ -234,10 +229,10 @@ footer {
 
 .portfolio-subtitle {
   font-weight: var(--font-weight-700);
-    font-size: 18px;
-    line-height: 2;
-      letter-spacing: var(--letter-spacing-006);
-    color: var(--title-text-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: var(--letter-spacing-006);
+  color: var(--title-text-color);
 }
 
 .portfolio-project {
