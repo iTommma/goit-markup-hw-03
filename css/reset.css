@@ -2,7 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
   outline-offset: -2px;
 }
 
@@ -40,32 +40,49 @@ img {
   display: block;
 }
 
+
+
+
+
+
+
 /* All container */
 .container {
-  box-sizing: border-box;
   max-width: 1200px;
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  outline: 1px solid tomato;
 }
 
 /* Header */
-.header-container {
+.header {
   padding-top: 24px;
   padding-bottom: 25px;
 }
 
 /* Body */
 /* main Hero */
-.hero-container {
+.hero-section {
   background-color: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
 }
 
-/* Main */
+.hero-title {
+    max-width: 696px;
+    width: 100%;
+}
+
+/* Main     ! */
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+/* Footer */
+footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
