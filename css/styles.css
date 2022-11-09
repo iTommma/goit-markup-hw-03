@@ -139,7 +139,6 @@ footer {
 /* Main */
 
 /* ___ index.html */
-
 /* main Hero */
 .hero-title {
   color: var(--primary-white-color);
@@ -159,9 +158,6 @@ footer {
   font-size: var(--font-size-16);
   letter-spacing: var(--letter-spacing-006);
   line-height: 1.88;
-
-  padding: 1rem 1.5rem; /* Поля вокруг текста */
-  margin-bottom: 0; /* Отступ снизу */
 }
 
 /* main Features */
@@ -210,10 +206,7 @@ footer {
 }
 
 /* ___ portfolio.html */
-
 /* main Portfolio */
-
-
 .portfolio-filter {
   font-family: inherit;
   font-weight: var(--font-weight-500);
@@ -221,7 +214,6 @@ footer {
   line-height: 1.62;
   text-align: center;
   color: var(--title-text-color);
-
 }
 
 .portfolio-filter:hover,
