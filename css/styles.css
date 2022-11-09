@@ -230,6 +230,14 @@ footer {
   color: var(--title-text-color);
 }
 
+.portfolio-subtitle {
+  font-weight: var(--font-weight-700);
+    font-size: 18px;
+    line-height: 2;
+      letter-spacing: var(--letter-spacing-006);
+    color: var(--title-text-color);
+}
+
 .portfolio-project {
   font-size: var(--font-size-16);
   line-height: 1.88;
