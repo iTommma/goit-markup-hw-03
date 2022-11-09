@@ -41,11 +41,13 @@ body {
   cursor: pointer;
   font-family: inherit;
 
-
   border: none;
-  padding: 0.5rem 1.5rem; /* Поля вокруг текста */
-  margin-bottom: 0; /* Отступ снизу */
+  padding: 0.5rem 1.5rem;
   border-radius: 4px;
+}
+
+.invisible {
+  font-size: 0;
 }
 
 /* logo */
