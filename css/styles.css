@@ -184,13 +184,10 @@ footer {
 }
 
 /* main Team */
-.team {
-  background-color: #f5f4fa;
-}
-
 .team-name {
   color: var(--title-text-color);
   font-weight: var(--font-weight-500);
+  font-size: var(--font-size-16);
   line-height: 1.19;
   text-align: center;
 }

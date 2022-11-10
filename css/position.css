@@ -60,24 +60,28 @@ img {
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  /* outline: 1px solid tomato; */
+}
+
+.nav {
+  display: inline-flex;
+  align-items: center;
+  /* outline: 1px solid tomato; */
 }
 
 .nav-list {
   display: inline-flex;
   justify-content: space-between;
-  width: 281px;
+  gap: 50px;
   margin-left: 93px;
-  padding: 32px 0;
   /* outline: 1px solid tomato; */
 }
 
 .header-list-contact {
   display: inline-flex;
-  justify-content: space-between;
-  width: 307px;
-  padding: 32px 0;
+  gap: 50px;
   /* outline: 1px solid tomato; */
-  text-align: left;
 }
 
 /* Footer */
@@ -91,8 +95,7 @@ footer .logo {
   margin-bottom: 20px;
 }
 
-.footer-address,
-.footer-contact {
+.footer-address-item {
   display: block;
   margin-bottom: 9px;
 }
@@ -124,11 +127,34 @@ footer .logo {
 
 /* Main */
 .section {
+  padding-bottom: 94px;
+}
+
+/* main Features */
+.features-section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
+.features-list {
+  display: flex;
+  gap: 30px;
+}
+
+.features-subtitle {
+  margin-bottom: 10px;
+  width: 270px;
+}
+
+.features-text {
+  width: 270px;
+}
+
 /* main Specialization */
+.specialization-section {
+  padding-bottom: 94px;
+}
+
 .specialization-title {
   margin-bottom: 50px;
 }
@@ -138,17 +164,13 @@ footer .logo {
   justify-content: space-between;
 }
 
-/* main Features */
-.features-list {
-  display: flex;
-  gap: 30px;
-}
-
-.features-subtitle {
-  margin-bottom: 10px;
-}
-
 /* main Team */
+.team-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: #F5F4FA;
+}
+
 .team-title {
   margin-bottom: 50px;
 }
@@ -175,6 +197,11 @@ footer .logo {
 
 /* ___ portfolio.html */
 /* main Portfolio */
+.portfolio-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .button-list {
   margin-bottom: 50px;
   display: flex;
